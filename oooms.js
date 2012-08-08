@@ -33,7 +33,7 @@
     'Kazakhstan': 'HRL',
     'Germany': 'AEU',
     'Hungary': 'AEU',
-    'Democratic People\'s Republic of Korea': 'HRL',
+    'Democratic People\'s Republic  of Korea' : 'HRL',
     'Netherlands': 'AEU',
     'Cuba': 'UNION',
     'Belarus': 'HRL',
@@ -92,7 +92,10 @@
     'Singapore': 'HRL',
     'Trinidad and Tobago': 'UNION',
     'Turkey': 'AEU',
-    'Uzbekistan': 'HRL'
+    'Uzbekistan': 'HRL',
+    'Algeria': 'AEU',
+    'Finland': 'AEU',
+    'Morocco': 'AEU'
   }
 
   $( function () {
@@ -105,6 +108,8 @@
           _.each(medals, function (medal) {
             oo_medals[power][medal]    = oo_medals[power][medal]    + parseInt(item[medal]);
           });
+        } else {
+          alert(item['country']);
         }
       });
       var medal = 'gold';
