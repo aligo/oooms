@@ -8,7 +8,7 @@
 * under the MIT license.
 */
 
-!function( $ ){
+!function( $, undefined ){
 
   'use strict';
 
@@ -109,7 +109,7 @@
             oo_medals[power][medal]    = oo_medals[power][medal]    + parseInt(item[medal]);
           });
         } else {
-          alert(item['country']);
+          if (window.console) console.log(item['country']);
         }
       });
       var medal = 'gold';
