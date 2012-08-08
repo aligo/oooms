@@ -47,7 +47,7 @@
     'Brazil': 'UNION',
     'Poland': 'AEU',
     'Islamic Republic of Iran': 'HRL',
-    'Jamaica': 'AEU',
+    'Jamaica': 'UNION',
     'Croatia': 'AEU',
     'Ethiopia': 'AEU',
     'Canada': 'UNION',
