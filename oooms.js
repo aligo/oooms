@@ -95,7 +95,8 @@
     'Uzbekistan': 'HRL',
     'Algeria': 'AEU',
     'Finland': 'AEU',
-    'Morocco': 'AEU'
+    'Morocco': 'AEU',
+    'Portugal': 'AEU'
   }
 
   $( function () {
