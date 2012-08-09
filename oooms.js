@@ -97,7 +97,8 @@
     'Finland': 'AEU',
     'Morocco': 'AEU',
     'Portugal': 'AEU',
-    'Tajikistan': 'AEU'
+    'Tajikistan': 'AEU',
+    'Ireland': 'AEU'
   }
 
   $( function () {
