@@ -98,7 +98,11 @@
     'Morocco': 'AEU',
     'Portugal': 'AEU',
     'Tajikistan': 'AEU',
-    'Ireland': 'AEU'
+    'Ireland': 'AEU',
+    'Botswana': 'AEU',
+    'Bulgaria': 'AEU',
+    'Afghanistan': 'HRL',
+    'Latvia': 'AEU'
   }
 
   $( function () {
