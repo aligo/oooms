@@ -121,11 +121,8 @@
           if (window.console) console.log(item['country']);
         }
       });
-      var medal = 'gold';
-      _.each(_.clone(medals).reverse(), function (medal) {
-        oo_medals = _.values(oo_medals).sort(function (a,b) {
-          return b[medal] - a[medal];
-        });
+      oo_medals = _.sort(_.values(oo_medals), medals, function (a, b) {
+        return b - a;
       });
       var rank = 0;
       _.each(oo_medals, function (item) {
