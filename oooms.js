@@ -102,7 +102,9 @@
     'Botswana': 'AEU',
     'Bulgaria': 'AEU',
     'Afghanistan': 'HRL',
-    'Latvia': 'AEU'
+    'Latvia': 'AEU',
+    'Bahamas': 'UNION',
+    'Bahrain': 'HRL'
   }
 
   $( function () {
