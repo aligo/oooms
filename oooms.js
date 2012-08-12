@@ -104,7 +104,9 @@
     'Afghanistan': 'HRL',
     'Latvia': 'AEU',
     'Bahamas': 'UNION',
-    'Bahrain': 'HRL'
+    'Bahrain': 'HRL',
+    'Gabon': 'AEU',
+    'Montenegro': 'AEU'
   }
 
   $( function () {
