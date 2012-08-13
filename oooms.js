@@ -106,7 +106,8 @@
     'Bahamas': 'UNION',
     'Bahrain': 'HRL',
     'Gabon': 'AEU',
-    'Montenegro': 'AEU'
+    'Montenegro': 'AEU',
+    'Uganda': 'AEU'
   }
 
   $( function () {
